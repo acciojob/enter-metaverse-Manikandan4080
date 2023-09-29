@@ -1,14 +1,7 @@
 //your JS code here. If required.
-let para = document.createElement("p");
-para.innerText = "Entered Metaverse";
-para.id = "status";
-
-let enterBtn = document.createElement("button");
-enterBtn.innerText = "Enter";
-enterBtn.id = "enterBtn";
+let para = document.getElementById("status")
+let enterBtn = document.getElementById("enterBtn")
 enterBtn.addEventListener("click", change);
-
-document.body.append(para, enterBtn);
 
 function change(){
 	let heading = document.createElement("h1");
